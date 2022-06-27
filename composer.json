@@ -15,8 +15,12 @@
   "license": "MIT",
   "require": {
     "php-64bit": "^7.4",
-    "furqansiddiqui/ethereum-php": "^0.1.20"
+    "furqansiddiqui/ethereum-php": "dev-master"
   },
+  "repositories": [{
+    "type": "vcs",
+    "url": "http://github.com/AndreyYE/ethereum-rpc"
+   }],
   "autoload": {
     "psr-4": {
       "FurqanSiddiqui\\Ethereum\\ERC20\\": [
